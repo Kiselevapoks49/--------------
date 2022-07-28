@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
-
 ::-webkit-scrollbar {
     width: 8px;
   }
@@ -89,7 +88,8 @@ a{
         z-index: var(--z-fixed)
     }
     
-    .nav{height: 100%;
+    .nav{
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -186,3 +186,60 @@ a{
     .body-pd{
         padding-left: calc(var(--nav-width) + 188px)
     }}
+
+    h7 {
+       
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        margin-left: 100px;
+    }
+
+    dt{
+        width: 500px;
+        display: inline;
+
+    }
+
+    .table{
+        border: 1px solid #eee;
+        table-layout: fixed;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .table th {
+        font-weight: bold;
+        padding: 5px;
+        background: #5328ff42;
+        border: 1px solid #dddddd;
+    }
+    .table td{
+        padding: 5px 10px;
+        border: 1px solid #eee;
+        text-align: left;
+    }
+    .table tbody tr:nth-child(odd){
+        background: #fff;
+    }
+    .table tbody tr:nth-child(even){
+        background: #5328ff25;
+    }
+    
+    button {
+
+        width: 400px;
+        height: 40px;
+        position: sticky;
+        background: #4723d9d5;
+        border: 1px solid #dddddd;
+        font-style: var(--white-color);
+        margin-left: 140px;
+        
+    }
+
+    .fig {
+        float: left; /* Обтекание картинки по левому краю */
+        padding-left: 10px; /* Отступ слева */
+        padding-bottom: 10px; /* Отступ снизу */
+       }
